@@ -13,7 +13,7 @@ function ballPosition(){
     }
     // if it move how fast
     if(startLeft === true){
-        flyX+=5;
+        flyX+=flySpeed;
     }
     // if it goes to far stop
     if(flyX > 389 ){
@@ -37,7 +37,7 @@ function ballPosition(){
     }
     // tells the ball where to go
     if(startRight === true){
-        flyXR-=5;
+        flyXR-=flySpeed;
     }
     if(flyXR < 118){
         startRight = false;

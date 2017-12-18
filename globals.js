@@ -7,6 +7,7 @@ let flyXR = -510;
 let flyYR = 338;
 let flyingBall;
 let flyingTwo;
+let flySpeed = 8
 let Xcords = 63;
 let secXCords = 441;
 let ballStack = [];
