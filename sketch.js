@@ -1,4 +1,4 @@
-
+// I write the comments above the code
 
 function setup() {
   mainCan = createCanvas(500, 500);

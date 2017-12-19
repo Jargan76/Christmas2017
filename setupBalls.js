@@ -1,7 +1,7 @@
 
 function setupBalls(){
     let ballGap = 13
-  // simple loop makes five balls eachs at men feet
+  // simple loop makes five balls eachs at men's base
     for(let i = 0; i < 6; i++){
        ballStack.push(new Snowball(Xcords,430));
        Xcords+=ballGap;

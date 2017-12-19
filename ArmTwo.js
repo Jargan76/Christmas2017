@@ -5,6 +5,7 @@ class ArmTwo {
         this.rotation = rtate;
     }
     show(){
+        // works with pop Look @ Arm.js for more comments
         push();
         translate(this.x, this.y);
         rotate(this.rotation);
@@ -15,6 +16,7 @@ class ArmTwo {
         line(0+15 ,0, 0+25, 0-10 );
         line(0+15 ,0, 0+25, 0+10 );
         strokeWeight(1);
+        // kepps everything in function
         pop();
     }
 }

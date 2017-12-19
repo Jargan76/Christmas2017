@@ -1,3 +1,4 @@
+// all gobal vars are kept here
 let mainCan;
 let bgImage;
 let countDwn = 5;

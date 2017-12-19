@@ -19,6 +19,7 @@ function ballPosition(){
     if(flyX > 389 ){
         startLeft = false;
     }
+    // once the ball has hit, ball slides down till == with others
     if(startLeft === false){
         flyY++;
         if(flyY >= 430){
@@ -39,9 +40,11 @@ function ballPosition(){
     if(startRight === true){
         flyXR-=flySpeed;
     }
+    // snowball has hit STOP flying
     if(flyXR < 118){
         startRight = false;
     }
+    // once the ball has hit, ball slides down till == with others
     if(startRight === false){
         flyYR++;
         if(flyYR >= 430 ){

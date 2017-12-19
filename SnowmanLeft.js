@@ -4,9 +4,7 @@ class SnowmanLeft {
         this.y = y;
         this.size = 71;
     }
-    backArm(){
-      // use stick
-    }
+    // bottom Snowball
     base() {
         let baseSize = this.size;
         // outline
@@ -20,6 +18,7 @@ class SnowmanLeft {
         fill(246, 247, 254);
         ellipse(this.x-2, this.y-2, baseSize-6);
     }
+    // Middle Snowball
     middle() {
         let midSize = this.size-15;
         let middleY = this.y-45;
@@ -34,6 +33,7 @@ class SnowmanLeft {
         fill(246, 247, 254);
         ellipse(this.x-2, middleY-2, midSize-6);
     }
+    // top Snowball
     head() {
         let headSize = this.size-27;
         let headY = this.y-85;
@@ -48,6 +48,7 @@ class SnowmanLeft {
         fill(246, 247, 254);
         ellipse(this.x-2, headY-2, headSize-6);
     }
+    // All Buttons
     buttons() {
         let startPointX = this.x +10;
         let startPointY = this.y + 18;
@@ -65,6 +66,7 @@ class SnowmanLeft {
         ellipse(startPointX+6, startPointY-16, 5);
         ellipse(startPointX+5, startPointY-24, 5);
     }
+    // Eyes
     eyes(){
         let eyeStartX = this.x+4;
         let eyesStartY = this.y-88
@@ -72,6 +74,7 @@ class SnowmanLeft {
         ellipse(eyeStartX, eyesStartY, 7);
         ellipse(eyeStartX+10, eyesStartY, 7);
     }
+    // Put it all together and Show it -- Ta-da!
     show() {
         this.base();
         this.middle();

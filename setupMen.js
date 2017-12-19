@@ -10,7 +10,7 @@ function setupMen(){
     //view SnowmanRight.js
     manTwo = new SnowmanRight(400, 400);
     // view carrot.js
-    carrot = new Carrot(111,320, 0);
+    carrot = new Carrot(111,320,0);
     carrotTwo = new Carrot(390,320, 1);
     // view hat.js
     hatOne = new Hat(100,300,"#acc436");
